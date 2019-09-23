@@ -20,6 +20,8 @@ var textResponder = &responders.Responder{
 			// 	}
 			// 	return "An error occurred. Please yell."
 			// }
+
+			return "stop that"
 		},
 	}},
 }
