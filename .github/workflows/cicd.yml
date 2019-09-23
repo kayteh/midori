@@ -43,7 +43,7 @@ jobs:
       
 
       - name: Build & Push Docker Image
-        uses: roleypoly/actions/dxt@master
+        uses: roleypoly/actions/dxt@fix-tags
         if: github.event_name == 'push'
         with:
           tag: katie/midori:${{ github.sha }},docker.pkg.github.com/kayteh/midori/midori:${{ github.sha }}
